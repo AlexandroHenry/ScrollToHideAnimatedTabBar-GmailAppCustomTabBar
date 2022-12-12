@@ -11,6 +11,10 @@
 		AA5784572947277000B83786 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA5784562947277000B83786 /* ContentView.swift */; };
 		AA5784592947277300B83786 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA5784582947277300B83786 /* Assets.xcassets */; };
 		AA57845C2947277300B83786 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA57845B2947277300B83786 /* Preview Assets.xcassets */; };
+		AA57846529472BF300B83786 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA57846429472BF300B83786 /* Home.swift */; };
+		AA57846729472BFC00B83786 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA57846629472BFC00B83786 /* Message.swift */; };
+		AA57846929472E8100B83786 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA57846829472E8100B83786 /* CustomTabBar.swift */; };
+		AA57846B2947335800B83786 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA57846A2947335800B83786 /* MailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		AA5784562947277000B83786 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA5784582947277300B83786 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA57845B2947277300B83786 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AA57846429472BF300B83786 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		AA57846629472BFC00B83786 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		AA57846829472E8100B83786 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		AA57846A2947335800B83786 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +59,8 @@
 		AA5784532947277000B83786 /* ScrollToHideAnimatedTabBar-GmailAppCustomTabBar */ = {
 			isa = PBXGroup;
 			children = (
+				AA57846329472BE000B83786 /* View */,
+				AA57846229472BDD00B83786 /* Model */,
 				AA5784542947277000B83786 /* ScrollToHideAnimatedTabBar_GmailAppCustomTabBarApp.swift */,
 				AA5784562947277000B83786 /* ContentView.swift */,
 				AA5784582947277300B83786 /* Assets.xcassets */,
@@ -65,6 +75,24 @@
 				AA57845B2947277300B83786 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		AA57846229472BDD00B83786 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA57846629472BFC00B83786 /* Message.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA57846329472BE000B83786 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA57846429472BF300B83786 /* Home.swift */,
+				AA57846829472E8100B83786 /* CustomTabBar.swift */,
+				AA57846A2947335800B83786 /* MailView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +166,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA5784572947277000B83786 /* ContentView.swift in Sources */,
+				AA57846B2947335800B83786 /* MailView.swift in Sources */,
+				AA57846929472E8100B83786 /* CustomTabBar.swift in Sources */,
+				AA57846729472BFC00B83786 /* Message.swift in Sources */,
+				AA57846529472BF300B83786 /* Home.swift in Sources */,
 				AA5784552947277000B83786 /* ScrollToHideAnimatedTabBar_GmailAppCustomTabBarApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
